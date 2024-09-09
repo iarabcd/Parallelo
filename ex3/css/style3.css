@@ -62,7 +62,7 @@ header {
 
     }
     #menu li a:hover{
-        color: rgb(255, 231, 19);
+        color: #e7a920;
         transition: 1s;
         text-decoration: line-through;
 
@@ -72,8 +72,76 @@ header {
         width: 100%;
         height: 500px;
         background-repeat: repeat-x;
+        padding-top: 100px;
     }
+    
+   .icons{
+       height: 120px;
+       width: 345px;
+       margin: 0 auto;
+       display: flex;
+       flex-direction: row;
+   }
+   .icons .icon img/* o espaço entre o icons e o icon indica q um esta dentro do outro. se estivessem junto, indicaria q eles são o mesmo*/{
+       width:115px;
+   }
+   .txt{
+       height: 100px;
+       width: 100%;
+       width: 850px;
+       margin: 0 auto;
+   }
+   .txt h6{
+    font-size: 26px;
+    font-weight: 300;
+    width: 80%;
+    display:inline-block;
+    line-height: 40px;
+    font-family: Montserrat,sans-serif;/*mudar a fonte*/
+    text-align: center;
+    margin: 0;
+    margin-left: 95px;
+    margin-top: 40px;
+   }
+   .header{
+        width: 100%;
+        height: 500px;
+   }
+   .header h4{
+    color:#e7a920;
+    text-transform: uppercase;
+    letter-spacing: 11px;
+    font-weight: 300;
+    font-size: 24px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin:0;
+   }
+   .header h1{
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 85px;
+    text-transform: uppercase;
+    color: #000;
+    text-align: center;
+    font-style: italic;
+    margin:0;
+    background-image: url(../imagens/black-wave.png);  
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+   .header .icon img{
+    width:80px;
+   }
+   .header h6{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic;
+   }
     /*-------------------------------------trabalhos-----------------------------------------*/
     #trabalho {
         background-color: blue;
     }
+    
